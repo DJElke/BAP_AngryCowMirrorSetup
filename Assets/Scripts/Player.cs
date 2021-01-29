@@ -48,7 +48,13 @@ public class Player : NetworkBehaviour
     /// Called when the local player object has been set up.
     /// <para>This happens after OnStartClient(), as it is triggered by an ownership message from the server. This is an appropriate place to activate components or functionality that should only be active for the local player, such as cameras and input.</para>
     /// </summary>
-    public override void OnStartLocalPlayer() { }
+    public override void OnStartLocalPlayer() 
+    {
+        Camera.main.transform.SetParent(transform);
+        Camera.main.transform.localPosition = new Vector3(0,0,0);
+        float y = Input.GetAxis("Vertical");
+        Camera.main.transform.localRotation = Quaternion.Euler(0,-y,0);
+    }
 
     /// <summary>
     /// This is invoked on behaviours that have authority, based on context and <see cref="NetworkIdentity.hasAuthority">NetworkIdentity.hasAuthority</see>.
@@ -91,6 +97,16 @@ public class Player : NetworkBehaviour
     public override void OnDeserialize(NetworkReader reader, bool initialState)
     {
         base.OnDeserialize(reader, initialState);
+    }
+
+    #endregion
+
+    #region Custom methods
+
+    void Update()
+    {
+        if(!isLocalPlayer) {return;}
+       
     }
 
     #endregion
