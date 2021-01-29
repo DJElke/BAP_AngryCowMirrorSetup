@@ -18,7 +18,7 @@ public class CustomNetworkManagerHUD : MonoBehaviour
 
     /// <summary>
     ///  The awake method
-    ///  <para> This class is called when the application awakens and assigns the <value> manager </value> to a component of the type NetworkManager </para>
+    ///  <para> This class is called when the application awakens and assigns the <value> manager </value> to a component of the type NetworkManager. </para>
     /// </summary>
     public void Awake()
     {
@@ -27,7 +27,7 @@ public class CustomNetworkManagerHUD : MonoBehaviour
 
     /// <summary>
     /// The cowClicked method
-    /// <para> This method is called when btnCow is clicked in the GUI and sets the cow as the host of the game </para>
+    /// <para> This method is called when btnCow is clicked in the GUI and sets the cow as the host of the game. </para>
     /// </summary>
     public void cowClicked()
     {
@@ -42,7 +42,7 @@ public class CustomNetworkManagerHUD : MonoBehaviour
 
     /// <summary>
     /// The farmerClicked method
-    /// <para> This method is callen when btnFarmer is clicked in the GUI and sets the farmer as the client in the game </para>
+    /// <para> This method is callen when btnFarmer is clicked in the GUI and sets the farmer as the client in the game. </para>
     /// </summary>
     public void farmerClicked()
     {
