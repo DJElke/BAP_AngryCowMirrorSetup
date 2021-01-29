@@ -940,7 +940,7 @@ MonoBehaviour:
   autoCreatePlayer: 0
   playerSpawnMethod: 1
   spawnPrefabs:
-  - {fileID: 2798718781572489932, guid: 21eb65218fcae4ef1896a6cefd7fb2bd, type: 3}
+  - {fileID: 2016421606431760819, guid: aa249c9977aea4dbc9867bf07406d2ea, type: 3}
   - {fileID: 6279085324132305478, guid: b2225082222b848839bdc25adc6cfa5f, type: 3}
   isServer: 0
 --- !u!114 &1469997251
