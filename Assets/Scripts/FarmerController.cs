@@ -7,7 +7,7 @@ using System.Collections.Generic;
 	API Reference: https://mirror-networking.com/docs/api/Mirror.NetworkBehaviour.html
 */
 
-public class Player : NetworkBehaviour
+public class FarmerController : NetworkBehaviour
 {
 
     #region Variables
@@ -52,9 +52,9 @@ public class Player : NetworkBehaviour
     public override void OnStartLocalPlayer() 
     {
         Camera.main.transform.SetParent(transform);
-        Camera.main.transform.localPosition = new Vector3(0,0,0);
+        Camera.main.transform.localPosition = new Vector3(0,7,-8);
         float y = Input.GetAxis("Vertical");
-        Camera.main.transform.localRotation = Quaternion.Euler(0,-y,0);
+        Camera.main.transform.localRotation = Quaternion.Euler(10,-y,0);
     }
 
     /// <summary>
