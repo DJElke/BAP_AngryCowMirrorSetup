@@ -11,7 +11,7 @@ public class CustomNetworkManager : NetworkManager
 {
 
     #region Variables
-
+    /// <value> Boolean to check if the client connecting is also a server (true) or not (false) </value>
     public bool isServer;
 
     #endregion
@@ -307,7 +307,7 @@ public class CustomNetworkManager : NetworkManager
     /// option in the NetworkManager.</para>
     /// </summary>
     /// <param name="conn">The connection to the server.</param>
-    /// <param name="message">The PlayerInfoMessage network message</param>
+    /// <param name="message">The PlayerInfoMessage network message.</param>
     void OnCreatePlayer(NetworkConnection conn, PlayerInfoMessage message)
     {
         GameObject gameobject;

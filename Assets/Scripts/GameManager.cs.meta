@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 3bcc64f4d0e2a4f959802c070462015f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - missedPoopText: {instanceID: 0}
+  - downgradeSlider: {instanceID: 0}
+  - upgradeSlider: {instanceID: 0}
+  - upgradeText: {instanceID: 0}
+  - popUpCanvas: {instanceID: 0}
+  - popUp: {instanceID: 0}
+  - popUpButton: {instanceID: 0}
+  - endingCanvas: {instanceID: 0}
+  - endingImg: {instanceID: 0}
+  - endingTitle: {instanceID: 0}
+  - endingButton: {instanceID: 0}
+  - winnerImg: {instanceID: 0}
+  - farmerBody: {instanceID: 0}
+  - farmerLegLeft: {instanceID: 0}
+  - farmerLegRight: {instanceID: 0}
+  - blue: {fileID: 2100000, guid: 16188dc0680944f1c8a70aa0e1543e47, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

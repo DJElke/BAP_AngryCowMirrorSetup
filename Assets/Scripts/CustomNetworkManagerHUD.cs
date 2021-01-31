@@ -13,8 +13,14 @@ using Mirror;
 [RequireComponent(typeof(CustomNetworkManager))]
 public class CustomNetworkManagerHUD : MonoBehaviour
 {
-    /// <value>You need an instance of the NetworkManager</value>
+    #region Variables
+
+    /// <value> An instance of the NetworkManager </value>
     CustomNetworkManager manager;
+
+    #endregion
+
+    #region Custom methods
 
     /// <summary>
     ///  The awake method
@@ -52,4 +58,5 @@ public class CustomNetworkManagerHUD : MonoBehaviour
         }
     }
 
+    #endregion
 }

@@ -12,7 +12,9 @@ public class CowController : NetworkBehaviour
 
     #region Variables
 
+    /// <value> Instance of the PlayerClass enumeration </value>
     public PlayerClass playerClass;
+    /// <value> A small description about the player </value>
     public string description;
 
     #endregion
