@@ -227,6 +227,7 @@ public class GameManager : MonoBehaviour
         // Set the canvas active (so it's visible on the screen)
         popUpCanvas.gameObject.SetActive(true);
 
+        // Pause the game
         Time.timeScale = 0;
 
         // If itemToUnlock equals one, change the colour of the Farmers' body
@@ -287,6 +288,7 @@ public class GameManager : MonoBehaviour
         {
             catchedPoop = 0;
             popUpCanvas.gameObject.SetActive(false);
+            //Restart the game
             Time.timeScale = 1;
         }
     }
